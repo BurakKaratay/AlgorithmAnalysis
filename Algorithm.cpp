@@ -16,10 +16,7 @@ while(myfile>>line){
     cout << x << endl;
 }
 
-    if(line == "Who" || line == "who" || line == "Where" || line == "where" || line == "what" || line == "What" || line == "How" || line == "how"  ){
-    cout << line << endl;
-    x = x + 1;
-}
+  
     
   
 if(line[line.   length()-1] == '?'){
